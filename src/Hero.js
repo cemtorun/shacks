@@ -4,9 +4,9 @@ import bg from './bg.png';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="hero">
       <img className="home" src={bg}/>
-      <button><a href="/m/lol"><h1> > </h1></a></button>
+      <button><a href="/m/map"><h1> > </h1></a></button>
       </div>
     );
   }

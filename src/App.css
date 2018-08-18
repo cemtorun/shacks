@@ -1,15 +1,16 @@
-.home {
+.hero, .map, .pay{
   height: 100vh;
   max-width: 100%;
   overflow: hidden;
 }
 
 img {
+  max-width: 100%;
   position: absolute;
   z-index: -999;
 }
 
-button {
+.hero button {
   position: relative;
   z-index: 999;
   top: 625px;
@@ -20,7 +21,46 @@ button {
   width: 75px;
 }
 
-button a {
+.hero button a {
+  color: white;
+  text-decoration: none !important;
+}
+
+.map button {
+  position: relative;
+  z-index: 999;
+  top: 475px;
+  left: 39%;
+  color: rgb(0,0,0,0.1);
+  background-color: transparent;
+  border: none;
+  width: 75px;
+  height: 150px;
+}
+
+.map button a {
+  color: rgb(0,0,0,0);
+  text-decoration: none !important;
+}
+
+.btns {
+  padding: 4%;
+}
+
+.pay button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  position: relative;
+  z-index: 999;
+  top: 650px;
+  color: white;
+  background-color: rgb(255,255,255,0.2);
+  border-radius: 365px;
+  border: 1px solid white;
+  min-width: 150px;
+}
+
+.pay button a {
   color: white;
   text-decoration: none !important;
 }
